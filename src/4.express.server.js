@@ -1,6 +1,14 @@
 const express = require("express");
 const app = express();
 
+/**
+ * MERN
+ *
+ * NodeJS
+ * MonogoDB
+ * Express
+ */
+
 // http://localhost:3000/
 app.get("/", (req, res) => {
   const output = "Hello World";
